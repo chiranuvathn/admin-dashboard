@@ -30,26 +30,8 @@ ul {
 }
 
 .header {
-    /* display: grid;
-    grid-template-rows: repeat(2, 1fr); */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
 }
 
-.search-area,
-.search-box,
-.user-notification {
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.search-box,
-.user-notification {
-    margin-top: 14px;
-}
-
-.search-box {
-    /* margin-left: 100px; */
-}
-
-.user-notification {
-    /* margin-right: 300px; */
-}
