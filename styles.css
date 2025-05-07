@@ -32,6 +32,32 @@ ul {
 .header {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
 }
 
+.search-box {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    gap: 10px
+}
+
+.user-notification {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.user-profile {
+    display: flex;
+    align-self: center;
+    margin-left: 40px;
+    gap: 10px
+}
+
+.action-buttons {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    gap: 40px;
+}
